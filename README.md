@@ -17,4 +17,7 @@ If the **Active Directory module** is not installed, this script provides an alt
 All scripts leverage **PowerShell version 2** to **evade logging** (as logging was introduced in PowerShell v3). This helps prevent logs from being generated during script execution, offering a stealthier approach for auditing. Additionally, the scripts ensure that **PowerShell history is deleted** after usage for further discretion.
 
 ## Updates
-I will keep updating this repository with improvements and additional features. Stay tuned for future updates!
+I will keep updating this repository with more Scripts to enumerate and attack :)
+
+## Ethical Usage
+**These scripts should only be used for ethical purposes, such as security auditing, penetration testing, and within environments where you have explicit authorization. Unauthorized access to computer systems is illegal and unethical.**
