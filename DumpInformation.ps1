@@ -1,5 +1,5 @@
-﻿#Used to dump information about the Domani.
-
+﻿#Used to dump information about the Domanin.
+#Actually Usefull due to it simplifying the way i have to access some commands :) 
 
 Powershell -Version 2
 
@@ -49,6 +49,11 @@ Write-Host "RETRIEVING ALL KERBEROASTABLE ACCOUNS"
 loading
 $chad = get-DomainUser -SPN  | select Samaccountname | Format-List * 
 echo $chad > $domain'Kerberoastable'.txt
+
+Write-Host ""
+Write-Host "Retrieving all RDP_applicable Users"
+Get-ADGroupMember -Identity "Remote Management Users" 
+
 
 Write-Host "
  v   |\           v
