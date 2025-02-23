@@ -17,7 +17,7 @@ Write-Host  "   Wish we could S4veTh3eW0rld.... (I know i will.)  "
 
 
 try{ 
-    Import-Module ActiveDirectory -ErrorAction Stop
+    Import-Module ActiveDirectory -ErrorAction Stop #Needed for all new Scripts, only use ActiveDirectory Module to bypass Host-Based IDS and Monitoring Services.
 } catch {
     Write-Host "MODULES NOT AVAILABLE, EXITING..."
     Exit
