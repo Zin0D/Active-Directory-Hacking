@@ -1,1 +1,0 @@
-#Active-Dir Pentest Notes.
