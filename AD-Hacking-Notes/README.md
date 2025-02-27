@@ -81,11 +81,11 @@ Once inside, continue enumeration to identify:
 - Privileged users
 - Domain trust relationships
 
-- [Post Compromise Enumeration](./Post%20Compromise%20Enumeration%20155357aeddc080e9b6c0c8b17bbfe335.md)
+- [Post Compromise Enumeration](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/Post%20Compromise%20Enumeration%20155357aeddc080e9b6c0c8b17bbfe335.md)
 
 ### Maintaining Access
 Ensure persistence for future exploitation:
-- [Maintaining ACCESS & Pivoting](./Maintaining%20ACCESS%20&%20Pivoting%20163357aeddc080d28311cea834f6b0da.md)
+- [Maintaining ACCESS & Pivoting](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/Maintaining%20ACCESS%20&%20Pivoting%20163357aeddc080d28311cea834f6b0da.md)
 
 ---
 
@@ -93,20 +93,20 @@ Ensure persistence for future exploitation:
 
 ### Pass-the-Hash and Pass-the-Ticket Attacks
 Use captured hashes or tickets to authenticate:
-- [PassAttacks](./PassAttacks%20158357aeddc080f58290e64735ad4fdb.md)
+- [PassAttacks](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/PassAttacks%20158357aeddc080f58290e64735ad4fdb.md)
 
 ### Kerberoasting
 Extract and crack service account hashes:
-- [Kerberoasting](./Kerberoasting%20159357aeddc080c1b0abcf4ee0f97270.md)
+- [Kerberoasting](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/Kerberoasting%20159357aeddc080c1b0abcf4ee0f97270.md)
 
 ### Active Link File Attacks
 Abuse Group Policy Preferences (GPP) for credentials:
-- [Active Link File Attacks & GPP](./Active%20Link%20File%20Attacks%20&%20GPP%2015d357aeddc08065af89eb2b14b25863.md)
+- [Active Link File Attacks & GPP](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/Active%20Link%20File%20Attacks%20&%20GPP%2015d357aeddc08065af89eb2b14b25863.md)
 
 ### ACL Abuse
 Manipulate Access Control Lists to escalate privileges:
-- [ACL Abuse Primer](./ACL%20Abuse%20Primer%20168357aeddc080228447f9d30d2e1a77.md)
-- [Abusing ACLs](./Abusing%20ACLs%20169357aeddc080fa8fc5cca78ad8fc87.md)
+- [ACL Abuse Primer](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/ACL%20Abuse%20Primer%20168357aeddc080228447f9d30d2e1a77.md)
+- [Abusing ACLs](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/Abusing%20ACLs%20169357aeddc080fa8fc5cca78ad8fc87.md)
 
 ---
 
@@ -119,7 +119,7 @@ Manipulate Access Control Lists to escalate privileges:
 
 - **Living Off the Land:**
   Leverage built-in tools for stealthy attacks.
-  - [Living Of the Land](./Living%20Of%20the%20Land%20167357aeddc080f992fdcbd920843e0b.md)
+  - [Living Of the Land](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/Living%20Of%20the%20Land%20167357aeddc080f992fdcbd920843e0b.md)
 
 ---
 
@@ -132,8 +132,8 @@ Manipulate Access Control Lists to escalate privileges:
 - [PowerSploit: Set-DomainUserPassword](https://powersploit.readthedocs.io/en/latest/Recon/Set-DomainUserPassword/)
 
 ### Advanced Topics
-- [DSYNC Attack](./DSYNC%20Attack%2016c357aeddc080768c1be13715dcf098.md)
-- [Privileged Access](./Priviliged%20Access%2016c357aeddc080418300db2e7488b928.md)
+- [DSYNC Attack](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/DSYNC%20Attack%2016c357aeddc080768c1be13715dcf098.md)
+- [Privileged Access](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/Priviliged%20Access%2016c357aeddc080418300db2e7488b928.md)
 
 ---
 
