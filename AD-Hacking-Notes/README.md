@@ -1,4 +1,6 @@
 # Attacking Active Directory (AD)
+- `The notes i used to write` when i was learning how to hack Active-Directory.
+- This Repo will keep being updated with not just my own code-samples and hacking tools, but also with additional notes.
 
 ## Overview
 Active Directory (AD) can be thought of as a **network of multiple computers and devices** that share data and resources. It acts as a **large database** consisting of forests, domains, and objects.
