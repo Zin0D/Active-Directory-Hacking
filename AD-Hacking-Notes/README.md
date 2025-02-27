@@ -28,9 +28,11 @@ Active Directory (AD) can be thought of as a **network of multiple computers and
 ## Active Directory Enumeration
 Enumeration is critical for success in AD attacks.
 
-- **Initial Enumeration:** Start with tools and scripts to discover domain structures, users, and services.
+- **Initial Enumeration:** Start with tools and scripts to discover 
+domain structures, users, and services.
+  - [Initial Enumeration](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/ActiveDir%20Initial%20Enumr%20158357aeddc0804d9c3af7028764b05d.md)
 - **External Recon:** Gather information from external resources to assist internal attacks.
-  - [External Recon & Enum](./External%20Recon%20&%20Enum%20154357aeddc08074b11bf86ac2cd31d5.md)
+  - [External Recon & Enum](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/External%20Recon%20&%20Enum%20154357aeddc08074b11bf86ac2cd31d5.md)
 
 ### Key Quote
 > "Enumeration makes or breaks you as a hacker!"
