@@ -50,7 +50,7 @@ Here are some must-have tools for attacking Active Directory:
 - Responder
 - Mimikatz
 
-Learn more in the [Tools of the Trade](./Tools%20of%20the%20Trade%20152357aeddc080ecb6efd3bc4484f520.md) section.
+Learn more in the [Tools of the Trade](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/Tools%20of%20the%20Trade%20152357aeddc080ecb6efd3bc4484f520.md) section.
 
 ---
 
@@ -58,19 +58,19 @@ Learn more in the [Tools of the Trade](./Tools%20of%20the%20Trade%20152357aeddc0
 
 ### LLMNR Poisoning
 Perform local name resolution poisoning to capture credentials:
-- [LLMNR Poisoning](./LLMNR%20Poisoning%20152357aeddc08085b774f8589adb1b27.md)
+- [LLMNR Poisoning](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/LLMNR%20Poisoning%20152357aeddc08085b774f8589adb1b27.md)
 
 ### SMB Relay
 Relay captured NTLM hashes to authenticate against systems:
-- [SMB Relay](./SMB%20Relay%20152357aeddc080e58f3dcd48137ccba2.md)
+- [SMB Relay](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/SMB%20Relay%20152357aeddc080e58f3dcd48137ccba2.md)
 
 ### Gaining Shell Access
 Exploit identified vulnerabilities or relay credentials to gain shell access:
-- [Gaining Shell Access](./Gaining%20Shell%20Access%20152357aeddc080158bb1d02598b26393.md)
+- [Gaining Shell Access](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/Gaining%20Shell%20Access%20152357aeddc080158bb1d02598b26393.md)
 
 ### IPv6 DNS Takeover
 Abuse IPv6 DNS resolution to redirect traffic:
-- [IPv6 DNS TakeOver](./IPv6%20DNS%20TakeOver%20153357aeddc080f0b735fabc2c475b0c.md)
+- [IPv6 DNS TakeOver](Attacking%20ADr%20152357aeddc080f7a7b8efb60d686183/IPv6%20DNS%20TakeOver%20153357aeddc080f0b735fabc2c475b0c.md)
 
 ---
 
