@@ -31,4 +31,9 @@ Hacking AD involves several key stages:
 4. **Post-Exploitation**  
    Maintain access, pivot to other machines, and exfiltrate valuable data.
 
----      - access to computer systems is illegal and unethical`.
+---     
+ - My Certification regarding Active-Dir hacking:
+ ![Certification Badge](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/134987828)
+
+
+ Access to computer systems is illegal and unethical.
