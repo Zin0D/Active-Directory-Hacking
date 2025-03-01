@@ -3,22 +3,32 @@
 
 ---
 
-## Recon & Exploitation.:
-- The scripts in this repository are designed to enumerate and exploit `Active-Directory`.
-- This repository is not complete and will therefore be updated whenever i can.
+## What Is Active Directory?
+Active Directory is a directory service developed by Microsoft that provides:
+- **Centralized management** of users, computers, and resources.
+- **Authentication and authorization** through Kerberos and LDAP.
+- **Organized structure** of domains, forests, and trusts to manage access across networks.
 
 ---
 
-## Scripts Overview:
-- This repository contains a set of PowerShell scripts designed for **enumerating Active Directory (AD) objects**, focusing on user, group, and access control list (ACL) enumeration.
-- These scripts are ideal for security auditing and penetration testing, offering multiple ways to gather crucial information from your AD environment.
+##  How to Hack Active Directory
+Hacking AD involves several key stages:
+1. **Enumeration**  
+   Discover and map the AD environment, looking for misconfigurations, weak credentials, and vulnerable services.
 
----
+2. **Exploitation**  
+   Use techniques like:
+   - LLMNR/NBT-NS Poisoning
+   - Kerberoasting , Getting valid usernames
+   - Pass-the-Hash , Pass-the-Passwore
+   - Abusing Vulnerable legacy systems
+   - ACL Abuse
+   - And much more.
 
-### PowerShell Version 2:  
-- All scripts `leverage **PowerShell version 2** to **evade logging**` (as logging was introduced in PowerShell v3). This helps `prevent logs from being generated during script execution`, offering a stealthier approach for auditing. Additionally, the scripts ensure that **PowerShell history is deleted** after usage for further discretion.
+3. **Privilege Escalation**  
+   Gain domain administrator privileges by leveraging AD-specific attack paths.
 
----
+4. **Post-Exploitation**  
+   Maintain access, pivot to other machines, and exfiltrate valuable data.
 
-## Ethical Usage:
-- These scripts should only be used for `ethical purposes`, such as security auditing, penetration testing, and within environments where you have explicit authorization.`Unauthorized         - access to computer systems is illegal and unethical`.
+---      - access to computer systems is illegal and unethical`.
