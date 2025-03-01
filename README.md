@@ -19,10 +19,17 @@ Hacking AD involves several key stages:
 2. **Exploitation**  
    Use techniques like:
    - LLMNR/NBT-NS Poisoning
-   - Kerberoasting , Getting valid usernames
-   - Pass-the-Hash , Pass-the-Passwore
-   - Abusing Vulnerable legacy systems
-   - ACL Abuse
+   - SMB Relay attacks
+   - Kerberoasting 
+   - Golden-Ticket attacks
+   - GPP / cPassword
+   - Pass-the-Hash 
+   - Pass-the-Password
+   - Access Control List attack
+   - Dsync attacks
+   - Dangerous priviliges
+   - Abusing Vulnerable legacy systems (Etenral Blue...)
+   - Abusing misconfigured printers using LDAP
    - And much more.
 
 3. **Privilege Escalation**  
@@ -32,7 +39,8 @@ Hacking AD involves several key stages:
    Maintain access, pivot to other machines, and exfiltrate valuable data.
 
 ---     
- - My Certification regarding Active-Dir hacking:
+ My Certification | Active-Dir Hacking:
+ 
  ![Certification Badge](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/134987828)
 
 
