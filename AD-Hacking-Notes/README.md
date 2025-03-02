@@ -124,6 +124,7 @@ Manipulate Access Control Lists to escalate privileges:
 ---
 
 ## Resources
+- Will be updated
 
 ### Articles
 - [How to Hack Through a Pass-Back Attack: MFP Hacking Guide](https://www.mindpointgroup.com/blog/how-to-hack-through-a-pass-back-attack)
