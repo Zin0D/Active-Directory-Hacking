@@ -53,7 +53,7 @@ but using Nmap is also okay, i guess, just a bit more difficult.
 - `Use Kerbrute, SmbNullsessions or LDAP Anonymous Binds.`
 
 <aside>
-💡
+
 
 Kerbrute
 
@@ -72,7 +72,7 @@ Kerbrute is good to initially , map `all existing accounts` on a domain
 Another side note is, once we have usernames, trying to gain `a System Shell, allows us to almost enumerate the whole domain`, and do a lot with the domain itself & attacks.
 
 <aside>
-💡
+
 
 Enumerating & Retrieving Password Policies.
 
@@ -104,7 +104,7 @@ Retrieves some SIDs?
 ```
 
 <aside>
-💡
+
 
 Enum4linux to gain INFORMATION about the domain.
 
@@ -123,7 +123,7 @@ Mostly Pre-installed, able to query
 We can use the built in tools for LDAP Anonymous bind.
 
 <aside>
-💡
+
 
 Enumerating Password Policy from Windows.
 
@@ -152,7 +152,7 @@ Its incredibely important to not lock out any accounts, one suspiscion and two, 
 When using `Crackmapexec,` we can do more than that, inclduing see how many bad login attempts happened :D
 
 <aside>
-💡
+
 
 Enumerating Users with Kerbrute. I Stealthy.
 
@@ -188,6 +188,12 @@ When using kerbrute, `we will specify the fqd (FullyQualifiedDomain Name) , or a
 
 After enumerating the valid usernames, via KERBRUTE, we can use or write a script to filter out the available users.
 
+We can also use the No-Preauth feature and abuse that, checking for accounts that have it set.
+If enumerated , it will result in a valid account:
+
+`python3 /usr/share/doc/python3-impacket/examples/GetNPUsers.py DANTE.local/ -dc-ip 172.16.1.20 -usersfile users.txt -request`
+
+
 # Digging further into the Domain.
 
 Crackmapexec, is able to use Credentials. in order to further `enumerate Users, Groups` and so on.
@@ -206,9 +212,9 @@ By using `-h` we can also check out any information about a Modul.
 ![image.png](ActiveDir%20Initial%20Enumr%20158357aeddc0804d9c3af7028764b05d/image%208.png)
 
 <aside>
-💡
 
-Enumerating RID via
+
+Enumerating RID via rpcclient
 
 </aside>
 
