@@ -28,7 +28,7 @@ Hacking AD involves several key stages:
    - Access Control List attack
    - Dsync attacks
    - Dangerous priviliges
-   - Abusing Vulnerable legacy systems (Etenral Blue...)
+   - Abusing Vulnerable legacy systems (Eternal Blue...)
    - Abusing misconfigured printers using LDAP
    - And much more.
 
